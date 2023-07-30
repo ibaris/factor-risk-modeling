@@ -1,0 +1,64 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary factor-risk-modeling
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=factor-risk-modeling/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    allow_tests_inside_package: 'no'
+    appveyor:                  'no'
+    c_extension_function:      'longest'
+    c_extension_module:        '_FactorRiskModeling'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    c_extension_test_pypi:     'no'
+    c_extension_test_pypi_username: 'ibaris'
+    codecov:                   'yes'
+    command_line_interface:    'argparse'
+    command_line_interface_bin_name: 'FactorRiskModeling'
+    distribution_name:         'FactorRiskModeling'
+    email:                     'i.baris@outlook.de'
+    full_name:                 'Ismail Baris'
+    github_actions:            'no'
+    github_actions_osx:        'no'
+    github_actions_windows:    'no'
+    include_docker:            'yes'
+    license:                   'no'
+    linter:                    'flake8'
+    package_name:              'FactorRiskModeling'
+    pre_commit:                'yes'
+    pre_commit_formatter:      'yapf'
+    project_env_file:          'FactorRiskModeling'
+    project_env_name:          'FactorRiskModeling'
+    project_logo:              './data/logo/logo.png'
+    project_name:              'Factor Risk Modeling'
+    project_short_description: 'The FactorRiskModeling package is a Python library designed to facilitate the modeling and analysis of factor risks associated with stocks.'
+    pypi_disable_upload:       'yes'
+    release_date:              'today'
+    repo_hosting:              'github.com'
+    repo_hosting_domain:       'github.com'
+    repo_main_branch:          'main'
+    repo_name:                 'factor-risk-modeling'
+    repo_username:             'ibaris'
+    setup_py_uses_pytest_runner: 'no'
+    setup_py_uses_setuptools_scm: 'no'
+    sphinx_docs:               'yes'
+    sphinx_docs_hosting:       'https://factor-risk-modeling.readthedocs.io/'
+    sphinx_doctest:            'no'
+    sphinx_theme:              'sphinx-rtd-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    version:                   '2023.7.0'
+    website:                   'https://www.linkedin.com/in/ismbaris/'
+    year_from:                 '2023'
+    year_to:                   '2023'
